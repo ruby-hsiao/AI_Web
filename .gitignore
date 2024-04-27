@@ -1,0 +1,13 @@
+# 日誌文件
+*.log
+
+# 特定目錄
+node_modules/
+bin/
+obj/
+build/
+dist/
+
+# 指定檔案類型
+*.tmp
+*.temp
