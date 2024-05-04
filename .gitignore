@@ -11,3 +11,6 @@ dist/
 # 指定檔案類型
 *.tmp
 *.temp
+
+/workspaces/AI_Web/.gitignore
+/workspaces/AI_Web/ex01.ipynb
