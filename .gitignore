@@ -1,5 +1,6 @@
 # 日誌文件
 *.log
+.env
 
 # 特定目錄
 node_modules/
