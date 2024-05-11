@@ -19,7 +19,7 @@ GitHub Repo: https://github.com/ruby-hsiao/AI_Web
 
 環境安裝:
 
-1.1 Google Chrome 版本升級
+1.1 Google Chrome 版本升級 > 進入"設定" > "關於Chrome" => 最新版本
 
 1.2 Remote GitHub Codespace or local VSCode need "autoSave" and "display language to Chinese"
 
