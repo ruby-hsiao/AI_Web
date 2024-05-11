@@ -8,7 +8,7 @@ GitHub Repo: https://github.com/ruby-hsiao/AI_Web
 | -------- | ------- | ------- |
 | 0427 | None | None |
 | 0504 | [AM](https://www.youtube.com/watch?v=Cpl-vc1vrfk) | [PM](https://www.youtube.com/watch?v=_Zn9D0zT3Xg) |
-| 0511 | [AM](https://www.youtube.com/watch?v=TwSij0CXcyQ) | [PM]() |
+| 0511 | [AM](https://www.youtube.com/watch?v=TwSij0CXcyQ) | [PM](https://www.youtube.com/watch?v=tvLh2chebQM) |
 | 0518 | [AM]() | [PM]() |
 | 0525 | [AM]() | [PM]() |
 | 0601 | [AM]() | [PM]() |
@@ -23,4 +23,3 @@ GitHub Repo: https://github.com/ruby-hsiao/AI_Web
 
 1.2 Remote GitHub Codespace or local VSCode need "autoSave" and "display language to Chinese"
 
-# modify in codespace
