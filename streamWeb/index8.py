@@ -13,7 +13,7 @@ with st.sidebar:
         ("Standard(5-15 days)","Express(2-3 days)")
         )
     
-st.write("way1:", selected_value, radio_value)
+st.write(":blossom:", ":rainbow[way1:]", selected_value, radio_value)
 
 # with notation2
 with st.sidebar:
@@ -29,4 +29,4 @@ with st.sidebar:
         
         st.form_submit_button("確定")
     
-st.write("way2:", selected_value2, radio_value2)
+st.write(":100:", ":green[way2:]", selected_value2, radio_value2, unsafe_allow_html=True)
