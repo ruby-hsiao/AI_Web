@@ -10,9 +10,9 @@ GitHub Repo: https://github.com/ruby-hsiao/AI_Web
 | 0504 | [AM](https://www.youtube.com/watch?v=Cpl-vc1vrfk) | [PM](https://www.youtube.com/watch?v=_Zn9D0zT3Xg) |
 | 0511 | [AM](https://www.youtube.com/watch?v=TwSij0CXcyQ) | [PM](https://www.youtube.com/watch?v=tvLh2chebQM) |
 | 0518 | [AM](https://www.youtube.com/watch?v=n_8WI1-JG6g) | [PM](https://www.youtube.com/watch?v=yAuSv4z7HYw) |
-| 0525 | [AM]() | [PM]() |
-| 0601 | [AM]() | [PM]() |
-| 0615 | [AM]() | [PM]() |
+| 0525 | [AM](https://www.youtube.com/watch?v=cPZn_HzrKtk) | [PM](https://www.youtube.com/live/dgfbY_Ympsw) |
+| 0601 | [AM](https://www.youtube.com/watch?v=OvYFVgGBm88) | [PM](https://www.youtube.com/watch?v=y32VEM9pfOw) |
+| 0615 | [AM](https://www.youtube.com/watch?v=dzzVhZHkQnU) | [PM](https://www.youtube.com/watch?v=gfHbufqnVTw) |
 | 0622 | [AM]() | [PM]() |
 | 0629 | [AM]() | [PM]() |
 
