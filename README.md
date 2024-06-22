@@ -13,7 +13,7 @@ GitHub Repo: https://github.com/ruby-hsiao/AI_Web
 | 0525 | [AM](https://www.youtube.com/watch?v=cPZn_HzrKtk) | [PM](https://www.youtube.com/live/dgfbY_Ympsw) |
 | 0601 | [AM](https://www.youtube.com/watch?v=OvYFVgGBm88) | [PM](https://www.youtube.com/watch?v=y32VEM9pfOw) |
 | 0615 | [AM](https://www.youtube.com/watch?v=dzzVhZHkQnU) | [PM](https://www.youtube.com/watch?v=gfHbufqnVTw) |
-| 0622 | [AM]() | [PM]() |
+| 0622 | [AM](https://www.youtube.com/watch?v=P22WB-2VPJc) | [PM]() |
 | 0629 | [AM]() | [PM]() |
 
 
