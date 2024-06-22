@@ -53,16 +53,6 @@ with st.form('bmi_form', border=False):
         cleared = st.form_submit_button("清除", on_click=clear)
 
 
-    
-    col4, col5, col6 = st.columns(3)
-    with col4:
-    st.text("")
-
-    with col5:
-    st.text("身體質量指數(BMI)(kg/m2)")
-
-    with col6:
-    st.text("腰圍(cm)")
 
 
 
