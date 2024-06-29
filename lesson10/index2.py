@@ -11,11 +11,7 @@ except Exception as e:
 else:    
     root = Root.model_validate_json(data_str)
     data = root.model_dump()
-
-    def ijk(value):
-        return value['行政區']
-
-    areas:list[str] = list(set(map(ijk,data)))
+    areas:list[str] = list(set(map(lambda value:value['行政區'], data)))
 
     option = st.selectbox("請選擇行政區",areas)
     st.write("您選擇:", option)
