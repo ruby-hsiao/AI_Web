@@ -4,6 +4,15 @@ import streamlit as st
 import source #匯入module
 from source import Root #匯入class
 import pandas as pd
+import random
+
+def randomcolor():
+    colorArr = ['1','2','3','4','5','6','7','8','9','A','B','C','D','E','F']
+    color = ''
+
+    for i in range(6):
+        color += colorArr[random.randint(0,14)]
+    return '#' + color
 
 try:
     data_str = source.download_youbike()
@@ -48,6 +57,18 @@ else:
                              x='站點名稱',
                              y='總數',
                              size='可借')
+            
+            df3 = pd.DataFrame(display_data,
+                               columns=['緯度','經度','可借'])
+            df3['col_color'] = randomcolor()
+            
+            
+            st.map(df3, 
+                   latitude='緯度',
+                   longitude='經度',
+                   size='可借',
+                   color='col_color')
+    
 
 
     with st.sidebar:
