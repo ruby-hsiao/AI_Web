@@ -15,7 +15,7 @@ else:
     areas:list[str] = list(set(map(lambda value:value['行政區'], data)))
 
     st.title("台北市Youbike各行政區站點資料")
-    tableContainer = st.container(height=500, border=False)
+    tableContainer = st.container(border=False)
 
     display_data = []
     def search(spcific_name):
@@ -40,6 +40,15 @@ else:
             df1 = pd.DataFrame(data=display_data,
                                columns=['站點名稱','日期時間','地址','總數','可借','可還'])
             st.dataframe(data=df1)
+
+            df2 = pd.DataFrame(display_data,
+                               columns=['站點名稱','總數','可借','可還'])
+
+            st.scatter_chart(df2,
+                             x='站點名稱',
+                             y='總數',
+                             size='可借')
+
 
     with st.sidebar:
         option2 = st.selectbox(":orange[請選擇行政區域:]", options=areas, on_change=change_area, key='sarea')
