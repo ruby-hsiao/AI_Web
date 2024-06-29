@@ -12,6 +12,8 @@ dist/
 # 指定檔案類型
 *.tmp
 *.temp
+*.pyc
 
 /workspaces/AI_Web/.gitignore
 /workspaces/AI_Web/ex01.ipynb
+lesson10/__pycache__/source.cpython-310.pyc

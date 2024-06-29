@@ -3,6 +3,7 @@ from pydantic import BaseModel,Field,RootModel,field_validator,field_serializer
 import streamlit as st
 import source #匯入module
 from source import Root #匯入class
+import pandas as pd
 
 try:
     data_str = source.download_youbike()
@@ -28,8 +29,17 @@ else:
         filter(search(sarea_name), data)
         
         with tableContainer:
-            st.title(sarea_name)
-            st.table(display_data)
+            st.subheader(sarea_name)
+            # table display
+            #st.table(display_data)
+            
+            # dataframe
+            #st.dataframe(display_data)
+
+            # dataframe
+            df1 = pd.DataFrame(data=display_data,
+                               columns=['站點名稱','日期時間','地址','總數','可借','可還'])
+            st.dataframe(data=df1)
 
     with st.sidebar:
         option2 = st.selectbox(":orange[請選擇行政區域:]", options=areas, on_change=change_area, key='sarea')
