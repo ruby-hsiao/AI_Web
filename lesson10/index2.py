@@ -16,9 +16,15 @@ else:
     option = st.selectbox("請選擇行政區",areas)
     st.write("您選擇:", option)
 
+    def change_area():
+        st.write(st.session_state.sarea)
+
+    if 'sarea' not in st.session_state:
+        st.session_state.sarea = "淡水區" #default option value
+
     with st.sidebar:
-        option2 = st.selectbox(":orange[請選擇行政區域:]", options=areas)
+        option2 = st.selectbox(":orange[請選擇行政區域:]", options=areas, on_change=change_area, key='sarea')
         st.write("您選擇:", option2)
 
-
+    st.write(st.session_state)
 
