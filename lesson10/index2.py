@@ -16,6 +16,9 @@ else:
     option = st.selectbox("請選擇行政區",areas)
     st.write("您選擇:", option)
 
+    with st.sidebar:
+        option2 = st.selectbox(":orange[請選擇行政區域:]", options=areas)
+        st.write("您選擇:", option2)
 
 
 
